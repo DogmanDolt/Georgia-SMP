@@ -1,0 +1,43 @@
+DelayInMinutes: 10
+SaveAllWorlds: true
+Worlds:
+- world
+EnableSaveMSG: true
+SaveMSG: '&aStarting world save...'
+SaveMSG2: '&aWorld save completed!'
+SavePlayersEverywhere: false
+CheckForUpdates: false
+DisableDefaultWorldSave: false
+ExtraOptions:
+  SaveOnLogin: true
+  SaveOnLoginCount: 1
+  SaveOnQuit: true
+  SaveOnQuitCount: 1
+  SaveOnBlockBreak: true
+  SaveOnBlockPlace: true
+  SaveOnBlockBreakcount: 1500
+  SaveOnBlockPlacecount: 1500
+  EnableSelfInventorySave: false
+  EnableDebugMSGs: false
+  CheckSavingStats: false
+EnablePowerSave: false
+BroadCastWorldErrorIg: false
+BackUp:
+  EnableBackup: true
+  EnableBackupMSG: true
+  EnableAutoBackup: false
+  EnablePlayerKickWhileBackup: true
+  KickMSG: Server is making a backup...
+  IntervalOrDay: INTERVAL
+  BackupHoursInterval: 1
+  Date: 0
+  DateDayDelay: 7
+  EnableBackupPurge: false
+  AutoPurge: false
+  RemoveBackupXAfterDay: 4
+  EnableMaxBackups: true
+  MaxBackups: 10
+  WarningMSG: '&aWarning! Backup has been executed!'
+  WarningMSG2: '&aBackup Finished!'
+  DirectoryNotToBackup:
+  - thisisntgoingtobebackuped
